@@ -11,8 +11,8 @@ dest_files=[ "res://.import/blockHexagon.glb-fbc8f65ef1f4e7726b08587a776085cc.sc
 
 [params]
 
-nodes/root_type="Spatial"
-nodes/root_name="Scene Root"
+nodes/root_type="StaticBody"
+nodes/root_name="BloqueHexagono"
 nodes/root_scale=1.0
 nodes/custom_script=""
 nodes/storage=0
