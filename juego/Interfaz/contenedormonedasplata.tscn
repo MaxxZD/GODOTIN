@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://juego/RecursosHUD/coin_silver.png" type="Texture" id=1]
+[ext_resource path="res://juego/Interfaz/contenedormonedas.tscn" type="PackedScene" id=2]
+
+[node name="contenedormonedasplata" instance=ExtResource( 2 )]
+
+[node name="Sprite" parent="MarginContainer" index="0"]
+scale = Vector2( 0.95082, 0.944672 )
+texture = ExtResource( 1 )

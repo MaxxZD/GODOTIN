@@ -7,14 +7,24 @@
 
 [node name="BloqueCesped" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0 )
+collision_layer = 2
+collision_mask = 4
 
 [node name="BloqueTierra" parent="." instance=ExtResource( 2 )]
+collision_layer = 2
+collision_mask = 4
 
 [node name="BloqueTierra2" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+collision_layer = 2
+collision_mask = 4
 
 [node name="BloqueTierra3" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0 )
+collision_layer = 2
+collision_mask = 4
 
 [node name="BloqueTierra4" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0 )
+collision_layer = 2
+collision_mask = 4
