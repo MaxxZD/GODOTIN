@@ -67,13 +67,13 @@ func movimiento_vertical() -> void:
 		movimiento.y -= gravedad
 		movimiento.y = clamp(movimiento.y, -velocidad_max.y, impulso)
 		
-		if Input.is_action_just_released("Saltar"):
+		if Input.is_action_just_released("saltar"):
 			salto_interrumpido = true
 	else:
 		saltando = false
 			
 	var tocando_suelo: bool = is_on_floor() and vector_snap == Vector3.ZERO
-	var inicio_salto: bool = is_on_floor() and Input.is_action_just_pressed(("Saltar"))
+	var inicio_salto: bool = is_on_floor() and Input.is_action_just_pressed(("saltar"))
 		
 	if inicio_salto:
 		arbol_animacion.set_transicion_suelo_aire(AIRE)
@@ -89,7 +89,7 @@ func movimiento_vertical() -> void:
 	if movimiento.y >= velocidad_max.y:
 		salto_interrumpido = true
 		
-	if Input.is_action_pressed("Saltar") and saltando and not salto_interrumpido:
+	if Input.is_action_pressed("saltar") and saltando and not salto_interrumpido:
 		movimiento.y += fuerza_salto
 	
 	if movimiento.y <= 0 and not cayendo:
