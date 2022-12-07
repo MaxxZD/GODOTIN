@@ -1,0 +1,112 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://juego/Niveles/NivelBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://juego/Bloques/BloqueLargo.tscn" type="PackedScene" id=3]
+[ext_resource path="res://juego/Bloques/BloqueHexagono.tscn" type="PackedScene" id=4]
+[ext_resource path="res://juego/Items/MonedaOro.tscn" type="PackedScene" id=5]
+[ext_resource path="res://juego/Danio/Sierra.tscn" type="PackedScene" id=6]
+
+[node name="Nivel2" instance=ExtResource( 1 )]
+proximo_nivel = "res://juego/Niveles/Nivel3.tscn"
+
+[node name="BloqueHexagono" parent="Plataformas" index="0" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.18384, 0.501073, 0.341358 )
+
+[node name="BloqueHexagono2" parent="Plataformas" index="1" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.6136, 3.00107, -1.15864 )
+
+[node name="BloqueHexagono10" parent="Plataformas" index="2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.1136, 3.00107, -3.15864 )
+
+[node name="BloqueHexagono3" parent="Plataformas" index="3" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.68384, 3.00107, 1.34136 )
+
+[node name="BloqueHexagono9" parent="Plataformas" index="4" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.1838, 3.00107, 2.84136 )
+
+[node name="BloqueHexagono4" parent="Plataformas" index="5" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.1838, 3.00107, -0.158642 )
+
+[node name="BloqueHexagono14" parent="Plataformas" index="6" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.1136, 3.00107, -4.15864 )
+
+[node name="BloqueHexagono16" parent="Plataformas" index="7" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.1838, 3.00107, 3.84136 )
+
+[node name="BloqueHexagono17" parent="Plataformas" index="8" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.1838, 3.00107, -0.158642 )
+
+[node name="BloqueHexagono5" parent="Plataformas" index="9" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.6838, 3.00107, -0.158642 )
+
+[node name="BloqueHexagono12" parent="Plataformas" index="10" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.6838, 3.00107, -3.15864 )
+
+[node name="BloqueHexagono11" parent="Plataformas" index="11" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.6838, 3.00107, 2.84136 )
+
+[node name="BloqueHexagono18" parent="Plataformas" index="12" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.6838, 3.00107, -0.158642 )
+
+[node name="BloqueHexagono19" parent="Plataformas" index="13" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.6838, 3.00107, -3.15864 )
+
+[node name="BloqueHexagono20" parent="Plataformas" index="14" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.6838, 3.00107, 2.84136 )
+
+[node name="BloqueHexagono6" parent="Plataformas" index="15" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.18384, 0.501073, -0.158642 )
+
+[node name="BloqueHexagono23" parent="Plataformas" index="16" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.6838, 4.00107, 0.0566558 )
+
+[node name="BloqueLargo" parent="Plataformas" index="17" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 3.5, 2 )
+
+[node name="BloqueLargo2" parent="Plataformas" index="18" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 3.5, -2 )
+
+[node name="MonedaOro" parent="Items" index="0" instance=ExtResource( 5 )]
+transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, 8.53857, 4.5, -1.15605 )
+
+[node name="MonedaOro2" parent="Items" index="1" instance=ExtResource( 5 )]
+transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, 8.53857, 4.5, 1.34395 )
+
+[node name="MonedaOro3" parent="Items" index="2" instance=ExtResource( 5 )]
+transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, 10.0386, 4.5, 2.84395 )
+
+[node name="MonedaOro4" parent="Items" index="3" instance=ExtResource( 5 )]
+transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, 12.5386, 4.5, 2.84395 )
+
+[node name="MonedaOro7" parent="Items" index="4" instance=ExtResource( 5 )]
+transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, 10.0386, 4.5, -3.15605 )
+
+[node name="MonedaOro8" parent="Items" index="5" instance=ExtResource( 5 )]
+transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, 12.5386, 4.5, -3.15605 )
+
+[node name="MonedaOro5" parent="Items" index="6" instance=ExtResource( 5 )]
+transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, 15.0386, 4.5, 3.84395 )
+
+[node name="MonedaOro9" parent="Items" index="7" instance=ExtResource( 5 )]
+transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, 15.0386, 4.5, -4.15605 )
+
+[node name="MonedaOro6" parent="Items" index="8" instance=ExtResource( 5 )]
+transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, 17.5386, 4.5, 2.84395 )
+
+[node name="MonedaOro10" parent="Items" index="9" instance=ExtResource( 5 )]
+transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, 17.5386, 4.5, -3.15605 )
+
+[node name="Sierra" parent="Danio" index="0" instance=ExtResource( 6 )]
+transform = Transform( 0.173648, -0.984808, 0, 0.984808, 0.173648, 0, 0, 0, 1, 20, 4.91981, 2.5 )
+
+[node name="Sierra2" parent="Danio" index="1" instance=ExtResource( 6 )]
+transform = Transform( 0.173648, -0.984808, 0, 0.984808, 0.173648, 0, 0, 0, 1, 20, 4.91981, -2.5 )
+
+[node name="Portal" parent="." index="7"]
+transform = Transform( 2.98023e-08, 0, -1.6, 0, 1.6, 0, 1.6, 0, 2.98023e-08, 21.725, 5, 0.0907542 )
+proximo_nivel = "res://juego/Niveles/Nivel3.tscn"
+
+[node name="CamaraPlayer" parent="Player/BrazoCamara" index="0"]
+far = 31.9
+
+[editable path="Player"]

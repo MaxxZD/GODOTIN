@@ -7,6 +7,7 @@ var escena_precargada: Node = null
 onready var barra_progreso: ProgressBar = $ProgressBar
 onready var texto_completo: Label = $TextoCompleto
 
+# warning-ignore:unused_argument
 func _unhandled_input(event: InputEvent) -> void:
 	if puede_iniciar:
 		get_tree().current_scene.queue_free()
@@ -17,6 +18,8 @@ func _unhandled_input(event: InputEvent) -> void:
 		barra_progreso.visible = false
 		texto_completo.visible = false
 		puede_iniciar = false
+		
+		queue_free()
 
 func _ready() -> void:
 	barra_progreso.visible = false
@@ -24,6 +27,7 @@ func _ready() -> void:
 	
 func cargar_nivel(nivel: String) -> void:
 	hilo = Thread.new()
+# warning-ignore:return_value_discarded
 	hilo.start(self, "cargar_hilo", nivel, 2)
 	raise()
 	barra_progreso.visible = true

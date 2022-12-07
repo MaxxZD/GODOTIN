@@ -1,4 +1,6 @@
 extends Node
 
-signal game_over()
-signal actualizar_hud()
+# warning-ignore:unused_signal
+signal game_over
+# warning-ignore:unused_signal
+signal actualizar_hud

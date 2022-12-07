@@ -17,12 +17,12 @@ _global_script_classes=[ {
 "base": "Resource",
 "class": "DatosAjustesGuardado",
 "language": "GDScript",
-"path": "res://juego/Scripts/DatosAjustesGuardado.gd"
+"path": "res://juego/Almacenamiento/DatosAjustesGuardado.gd"
 }, {
 "base": "Resource",
 "class": "DatosUsuarioGuardado",
 "language": "GDScript",
-"path": "res://juego/Scripts/DatosUsuarioGuardado.gd"
+"path": "res://juego/Almacenamiento/DatosUsuarioGuardado.gd"
 }, {
 "base": "KinematicBody",
 "class": "Godotin",
@@ -32,7 +32,7 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "GuardarCargar",
 "language": "GDScript",
-"path": "res://juego/Scripts/GuardarCargar.gd"
+"path": "res://juego/Almacenamiento/GuardarCargar.gd"
 }, {
 "base": "Area",
 "class": "Moneda",
@@ -43,6 +43,11 @@ _global_script_classes=[ {
 "class": "PortalNivel",
 "language": "GDScript",
 "path": "res://juego/Scripts/Portal.gd"
+}, {
+"base": "Area",
+"class": "Sierra",
+"language": "GDScript",
+"path": "res://juego/Scripts/Sierra.gd"
 } ]
 _global_script_class_icons={
 "ArbolAnimacionPlayer": "",
@@ -51,13 +56,14 @@ _global_script_class_icons={
 "Godotin": "",
 "GuardarCargar": "",
 "Moneda": "",
-"PortalNivel": ""
+"PortalNivel": "",
+"Sierra": ""
 }
 
 [application]
 
 config/name="Godotin"
-run/main_scene="res://juego/Menus/MenuInicio.tscn"
+run/main_scene="res://juego/Menus/MenuPresentacion.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="Godotin"
 config/icon="res://logo.png"
