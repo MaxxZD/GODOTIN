@@ -1,7 +1,8 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://juego/player/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://juego/Bloques/ColumnaBloques.tscn" type="PackedScene" id=2]
+[ext_resource path="res://recursos/audio/musica/MusicaNivel.ogg" type="AudioStream" id=3]
 [ext_resource path="res://juego/Interfaz/HUD.tscn" type="PackedScene" id=6]
 [ext_resource path="res://juego/Scripts/Nivel.gd" type="Script" id=7]
 [ext_resource path="res://juego/Portal.tscn" type="PackedScene" id=8]
@@ -16,10 +17,9 @@ size = Vector2( 100, 100 )
 [sub_resource type="BoxShape" id=3]
 extents = Vector3( 50, 0.001, 50 )
 
-[node name="NivelBase" type="Node"]
+[node name="NivelBase" type="Spatial"]
 script = ExtResource( 7 )
 numero_nivel = 1
-proximo_nivel = "res://juego/Niveles/Nivel1.tscn"
 
 [node name="HUD" parent="." instance=ExtResource( 6 )]
 mouse_filter = 2
@@ -1382,8 +1382,14 @@ transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 50, 0, 
 
 [node name="Portal" parent="." instance=ExtResource( 8 )]
 transform = Transform( 1.6, 0, 0, 0, 1.6, 0, 0, 0, 1.6, 2.44765, 0, 0 )
+proximo_nivel = "res://juego/Interfaz/MenuIntermedio.tscn"
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 gravedad = 1.0
 impulso = 25.0
 fuerza_salto = 18.0
+
+[node name="MusicaNivel" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -15.0
+bus = "Musica"

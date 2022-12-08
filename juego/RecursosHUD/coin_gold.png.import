@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/coin_gold.png-6e76124531b94ffc1700dc6f8fd7a930.stex"
+path="res://.import/coin_gold.png-7df3f66088413c7d5c100b5d4482a6d4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://juego/RecursosHUD/coin_gold.png"
-dest_files=[ "res://.import/coin_gold.png-6e76124531b94ffc1700dc6f8fd7a930.stex" ]
+source_file="res://Juego/RecursosHUD/coin_gold.png"
+dest_files=[ "res://.import/coin_gold.png-7df3f66088413c7d5c100b5d4482a6d4.stex" ]
 
 [params]
 

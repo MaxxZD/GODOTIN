@@ -9,6 +9,8 @@
 [ext_resource path="res://juego/Danio/Sierra.tscn" type="PackedScene" id=7]
 
 [node name="Nivel3" instance=ExtResource( 1 )]
+nivel_actual = "res://juego/Niveles/Nivel3.tscn"
+numero_nivel = 3
 proximo_nivel = "res://juego/Menus/MenuGameOver.tscn"
 
 [node name="BloqueLargo" parent="Plataformas" index="0" instance=ExtResource( 3 )]

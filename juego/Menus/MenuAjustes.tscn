@@ -1,11 +1,13 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://Revamped.otf" type="DynamicFontData" id=1]
-[ext_resource path="res://asd/mas.png" type="Texture" id=2]
-[ext_resource path="res://asd/menos.png" type="Texture" id=3]
+[ext_resource path="res://juego/RecursosHUD/mas.png" type="Texture" id=2]
+[ext_resource path="res://juego/RecursosHUD/menos.png" type="Texture" id=3]
 [ext_resource path="res://juego/Scripts/MenuAjustes.gd" type="Script" id=4]
 [ext_resource path="res://juego/Scripts/CambiarVolumen.gd" type="Script" id=5]
 [ext_resource path="res://juego/Menus/ContenedorAccion.tscn" type="PackedScene" id=6]
+[ext_resource path="res://recursos/audio/musica/MusicaMenu.ogg" type="AudioStream" id=7]
+[ext_resource path="res://recursos/audio/sfx/Botones.ogg" type="AudioStream" id=8]
 
 [sub_resource type="DynamicFont" id=7]
 size = 30
@@ -83,8 +85,13 @@ custom_fonts/font = SubResource( 7 )
 text = "Menu Principal"
 
 [node name="BotonSFX" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 8 )
+volume_db = -5.0
+bus = "SFX"
 
 [node name="Musica" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+bus = "Musica"
 
 [node name="ContenedorTabulador" type="TabContainer" parent="."]
 anchor_right = 1.0

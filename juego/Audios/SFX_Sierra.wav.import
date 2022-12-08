@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/SFX_Sierra.wav-8101e01519be0394b32d5714108f12c6.sample"
+path="res://.import/SFX_Sierra.wav-a2542bacab9bdccc475ba3f5272a8177.sample"
 
 [deps]
 
-source_file="res://juego/Audios/SFX_Sierra.wav"
-dest_files=[ "res://.import/SFX_Sierra.wav-8101e01519be0394b32d5714108f12c6.sample" ]
+source_file="res://Juego/Audios/SFX_Sierra.wav"
+dest_files=[ "res://.import/SFX_Sierra.wav-a2542bacab9bdccc475ba3f5272a8177.sample" ]
 
 [params]
 

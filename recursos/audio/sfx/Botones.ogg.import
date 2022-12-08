@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Botones.ogg-805403e44418e310ed52d0266d46aa31.oggstr"
+
+[deps]
+
+source_file="res://recursos/audio/sfx/Botones.ogg"
+dest_files=[ "res://.import/Botones.ogg-805403e44418e310ed52d0266d46aa31.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

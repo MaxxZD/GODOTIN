@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mas.png-d2223650e7d8661d41a84cf540f2cf3d.stex"
+path="res://.import/menos.png-eee9e39dbfd0090d2a77115ba6a8f749.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asd/mas.png"
-dest_files=[ "res://.import/mas.png-d2223650e7d8661d41a84cf540f2cf3d.stex" ]
+source_file="res://Juego/RecursosHUD/menos.png"
+dest_files=[ "res://.import/menos.png-eee9e39dbfd0090d2a77115ba6a8f749.stex" ]
 
 [params]
 

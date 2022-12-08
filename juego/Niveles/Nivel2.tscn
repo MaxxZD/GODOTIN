@@ -7,6 +7,8 @@
 [ext_resource path="res://juego/Danio/Sierra.tscn" type="PackedScene" id=6]
 
 [node name="Nivel2" instance=ExtResource( 1 )]
+nivel_actual = "res://juego/Niveles/Nivel2.tscn"
+numero_nivel = 2
 proximo_nivel = "res://juego/Niveles/Nivel3.tscn"
 
 [node name="BloqueHexagono" parent="Plataformas" index="0" instance=ExtResource( 4 )]
@@ -104,7 +106,7 @@ transform = Transform( 0.173648, -0.984808, 0, 0.984808, 0.173648, 0, 0, 0, 1, 2
 
 [node name="Portal" parent="." index="7"]
 transform = Transform( 2.98023e-08, 0, -1.6, 0, 1.6, 0, 1.6, 0, 2.98023e-08, 21.725, 5, 0.0907542 )
-proximo_nivel = "res://juego/Niveles/Nivel3.tscn"
+proximo_nivel = "res://juego/Menus/MenuIntermedio.tscn"
 
 [node name="CamaraPlayer" parent="Player/BrazoCamara" index="0"]
 far = 31.9

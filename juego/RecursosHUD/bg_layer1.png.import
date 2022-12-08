@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bg_layer1.png-28ddf95836571c7c58d629074655820b.stex"
+path="res://.import/bg_layer1.png-70f1bbc386a6c4b8396bec37cb07b140.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://juego/RecursosHUD/bg_layer1.png"
-dest_files=[ "res://.import/bg_layer1.png-28ddf95836571c7c58d629074655820b.stex" ]
+source_file="res://Juego/RecursosHUD/bg_layer1.png"
+dest_files=[ "res://.import/bg_layer1.png-70f1bbc386a6c4b8396bec37cb07b140.stex" ]
 
 [params]
 

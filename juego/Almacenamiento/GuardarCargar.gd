@@ -53,10 +53,10 @@ func cargar_datos_juego() -> void:
 	var datos: Resource = load(ruta)
 	
 	DatosJuego.vidas = datos.vidas
-	DatosJuego.monedas_oro = datos.monedas_oro
+	DatosJuego.monedasoro = datos.monedas_oro
 	DatosJuego.nivel_actual = datos.nivel_actual
 	DatosJuego.num_nivel_actual = datos.num_nivel_actual
-	DatosJuego.proximo_nivel = datos.nivel_proximo
+	DatosJuego.proximo_nivel = datos.proximo_nivel
 
 ## Guardar datos ##
 
@@ -86,9 +86,9 @@ func guardar_datos_juego() -> int:
 	var datos: DatosUsuarioGuardado = DatosUsuarioGuardado.new()
 	
 	datos.vidas = DatosJuego.vidas
-	datos.monedas_oro = DatosJuego.monedas_oro
-	datos.nivel_actual= DatosJuego.nivel_actual
-	datos.nivel_proximo= DatosJuego.proximo_nivel
+	datos.monedas_oro = DatosJuego.monedasoro
+	datos.nivel_actual = DatosJuego.proximo_nivel
+	datos.proximo_nivel = DatosJuego.proximo_nivel
 	
 	var resultado: int = ResourceSaver.save(ruta, datos)
 	

@@ -66,14 +66,14 @@ config/name="Godotin"
 run/main_scene="res://juego/Menus/MenuPresentacion.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="Godotin"
-config/icon="res://logo.png"
+config/icon="res://iconGame.png"
 
 [autoload]
 
+CargaSegundoPlano="*res://juego/Autoloads/CargaSegundoPlano.tscn"
 DatosJuego="*res://juego/Autoloads/DatosJuego.gd"
 Eventos="*res://juego/Autoloads/Eventos.gd"
 DatosConfiguracion="*res://juego/Autoloads/DatosConfiguracion.gd"
-CargaSegundoPlano="*res://juego/Autoloads/CargaSegundoPlano.tscn"
 
 [display]
 

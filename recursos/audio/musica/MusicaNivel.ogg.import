@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/MusicaNivel.ogg-9171da7bd01dca4e1045d3a19ff6340f.oggstr"
+
+[deps]
+
+source_file="res://recursos/audio/musica/MusicaNivel.ogg"
+dest_files=[ "res://.import/MusicaNivel.ogg-9171da7bd01dca4e1045d3a19ff6340f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -4,7 +4,7 @@ var vidas: int = 3
 var monedasoro: int = 0
 var nivel_actual: String = ""
 var num_nivel_actual: int = 0
-var nivel_proximo: String = ""
+var proximo_nivel: String = ""
 var puntaje:int = 0
 
 func reset() -> void:

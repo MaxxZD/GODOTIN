@@ -6,6 +6,8 @@
 [ext_resource path="res://juego/Bloques/ColumnaBloques.tscn" type="PackedScene" id=4]
 
 [node name="Nivel1" instance=ExtResource( 1 )]
+nivel_actual = "res://juego/Niveles/Nivel1.tscn"
+proximo_nivel = "res://juego/Niveles/Nivel2.tscn"
 
 [node name="ColumnaBloques" parent="Plataformas" index="0" instance=ExtResource( 4 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.93081, 0.00106502, -10.9548 )
@@ -65,5 +67,5 @@ transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, -3, 5.5, -13 )
 transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, -3, 5.5, -15 )
 
 [node name="Portal" parent="." index="7"]
-transform = Transform( 1.6, 0, 0, 0, 1.6, 0, 0, 0, 1.6, 0.0744176, 5, -19.8778 )
-proximo_nivel = "res://juego/Niveles/Nivel2.tscn"
+transform = Transform( 1.6, 0, 0, 0, 1.6, 0, 0, 0, 1.6, 0.142267, 5.04409, -19.8778 )
+proximo_nivel = "res://juego/Menus/MenuIntermedio.tscn"

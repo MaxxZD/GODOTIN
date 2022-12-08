@@ -1,8 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Revamped.otf" type="DynamicFontData" id=1]
 [ext_resource path="res://juego/Menus/MenuPresentacion.tres" type="DynamicFont" id=2]
 [ext_resource path="res://juego/Scripts/MenuInicio.gd" type="Script" id=3]
+[ext_resource path="res://recursos/audio/sfx/Botones.ogg" type="AudioStream" id=4]
+[ext_resource path="res://recursos/audio/musica/MusicaMenu.ogg" type="AudioStream" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 25
@@ -50,7 +52,6 @@ custom_constants/separation = 10
 margin_right = 300.0
 margin_bottom = 33.0
 custom_fonts/font = SubResource( 1 )
-disabled = true
 text = "Cargar"
 
 [node name="BotonNuevo" type="Button" parent="ContenedorPrincipal"]
@@ -78,6 +79,15 @@ margin_right = 300.0
 margin_bottom = 176.0
 custom_fonts/font = SubResource( 1 )
 text = "Salir"
+
+[node name="BotonSFX" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = -5.0
+bus = "SFX"
+
+[node name="MusicaMenu" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+bus = "Musica"
 
 [connection signal="pressed" from="ContenedorPrincipal/BotonCargar" to="." method="_on_BotonCargar_pressed"]
 [connection signal="pressed" from="ContenedorPrincipal/BotonNuevo" to="." method="_on_BotonNuevo_pressed"]

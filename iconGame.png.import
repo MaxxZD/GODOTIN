@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/menos.png-6f6425ce7a0d24555047ab893d9facb5.stex"
+path="res://.import/iconGame.png-15e0f73a8b9d370a8eafc09a0da02463.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asd/menos.png"
-dest_files=[ "res://.import/menos.png-6f6425ce7a0d24555047ab893d9facb5.stex" ]
+source_file="res://iconGame.png"
+dest_files=[ "res://.import/iconGame.png-15e0f73a8b9d370a8eafc09a0da02463.stex" ]
 
 [params]
 

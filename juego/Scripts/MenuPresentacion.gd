@@ -14,4 +14,5 @@ func _get_configuration_warning() -> String:
 	return ""
 	
 func cargar_menu() -> void:
+# warning-ignore:return_value_discarded
 	get_tree().change_scene(menu_inicial)

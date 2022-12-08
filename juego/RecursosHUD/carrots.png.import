@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/carrots.png-7c58b54ef01a34bc54f82f76fbce1faf.stex"
+path="res://.import/carrots.png-091f95448dc772a3e9496dd11d8ba827.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://juego/RecursosHUD/carrots.png"
-dest_files=[ "res://.import/carrots.png-7c58b54ef01a34bc54f82f76fbce1faf.stex" ]
+source_file="res://Juego/RecursosHUD/carrots.png"
+dest_files=[ "res://.import/carrots.png-091f95448dc772a3e9496dd11d8ba827.stex" ]
 
 [params]
 
